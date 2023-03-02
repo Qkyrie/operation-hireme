@@ -1,5 +1,7 @@
 target/
 build/
 .idea/
-application-dev.properties
+node_modules/
 
+data.db
+.env
