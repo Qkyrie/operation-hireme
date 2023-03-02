@@ -1,0 +1,29 @@
+{
+  "name": "operation-hireme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "init-db": "node src/db/init.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qkyrie/operation-hireme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qkyrie/operation-hireme/issues"
+  },
+  "homepage": "https://github.com/Qkyrie/operation-hireme#readme",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.0.3",
+    "knex": "^2.4.2",
+    "web3": "^1.8.2",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.4"
+  }
+}
